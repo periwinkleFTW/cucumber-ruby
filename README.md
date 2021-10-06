@@ -4,9 +4,12 @@
 
 $ docker build -t <container_name> .
 
-# How to run scripts:
-
--it is interactive mode that displays output to console/terminal
---rm removes container after exit
+# Check if it is working
 
 $ docker run -it --rm <container_name> ruby script.rb
+
+# You need to build every time you add new code
+
+# To run scripts you need to bash into the container
+
+$ docker run -it --rm <container_name> bash

@@ -10,4 +10,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ["./script.rb"]
+CMD ["./1.0-calculator/script.rb"]
